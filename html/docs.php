@@ -1,5 +1,5 @@
 <?php 
-    require('modules/header.html')
+    // require('modules/header.html')
 ?>
 
 <?php 

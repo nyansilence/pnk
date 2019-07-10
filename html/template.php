@@ -5,3 +5,7 @@
 <?php 
     require('pages/templates.html')
 ?>
+
+<?php 
+    require('modules/footer.html')
+?>
