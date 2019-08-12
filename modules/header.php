@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtoZ - Thiết kế website bán hàng chỉ với 1 cú nhấp chuột</title>
+    <meta name="description" content="Nền tảng thiết kế website, tạo website bán hàng uy tín số 1. Thiết kế website bán hàng chuẩn SEO, chuẩn Mobile, 200+ giao diện, 50+ ứng dụng hỗ trợ bán hàng. Tin dùng bởi 13.000+ Doanh nghiệp và chủ Shop." />
+    <meta name="robots" content="index, follow" />
+    <meta name="Author" content="AtoZ, account@AtoZmarket.world" />
+    <link rel="canonical" href="http://AtoZmarket.world/" />
+    <link rel="icon" href="/img/ATOZ-MAIN-LOGO---online--2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/ATOZ-MAIN-LOGO---online--2.png" type="image/x-icon" />
+    <!-- Og Option -->
+    <meta property="og:site_name" content="AtoZ" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/ATOZ-MAIN-LOGO---online--2.png" />
+    <meta property="og:title" content="AtoZ - Thiết kế website bán hàng chỉ với 1 cú nhấp chuột" />
+    <meta property="og:url" content="http://AtoZmarket.world/" />
+    <meta property="og:description" content="Nền tảng thiết kế website, tạo website bán hàng uy tín số 1. Thiết kế website bán hàng chuẩn SEO, chuẩn Mobile, 200+ giao diện, 50+ ứng dụng hỗ trợ bán hàng. Tin dùng bởi 13.000+ Doanh nghiệp và chủ Shop." />
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Nền tảng thiết kế website, tạo website bán hàng uy tín số 1. Thiết kế website bán hàng chuẩn SEO, chuẩn Mobile, 200+ giao diện, 50+ ứng dụng hỗ trợ bán hàng. Tin dùng bởi 13.000+ Doanh nghiệp và chủ Shop." />
+    <meta name="twitter:title" content="AtoZ - Thiết kế website bán hàng chỉ với 1 cú nhấp chuột" />
+    <meta name="twitter:image" content="./img/ATOZ-MAIN-LOGO---online--2.png" />
+    <meta property="fb:app_id" content="231584730667533" />
+    <meta property="fb:admins" content="100004510118558" />
+    <meta property="fb:admins" content="100003059209191" />
+    <meta property="fb:admins" content="100001725253658" />
+    <meta name="google-site-verification" content="pZCUhd_ZgLT1KKBekMfwB6-nwKdF-sl6TDlYomKDofs" />
+    <!-- Theme -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        var site_url = 'http://AtoZmarket.world/';
+        var base_url = 'http://AtoZmarket.world/';
+        var public_url = 'http://AtoZmarket.world/public/';
+    </script>
+    <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Organization", "name" : "AtoZ", "url" : "https://AtoZmarket.world", "sameAs" : [ "https://twitter.com/zozo_vn", "https://facebook.com/AtoZ-Website-Market-329615111310356", "https://www.youtube.com/channel/UC-lDtAPrOj77xWIGdACVLAA" ], "address": { "@type": "PostalAddress", "streetAddress": "Cau Giay", "addressRegion": "Hanoi", "postalCode": "100000", "addressCountry": "VN" } } </script>
+    <link rel="stylesheet" href="/css/boostrap.min.css" />
+    <link rel="stylesheet" href="/css/clone.min.css" />
+    <link rel="stylesheet" href="/css/helper.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="https://zozo.vn/public/theme/circle/js/jquery-2.4.1.min.js?v=20190618"></script>
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-98377474-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T8JJ59N');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1128360717322679');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1128360717322679&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body class="home-page">
+    <div class="wrapper">
+        <!-- Header -->
+        <!-- Message -->
+        <?php 
+            $url_host = $_SERVER['PHP_SELF'];
+        ?>
+        <div id="header" class="index <?php if($url_host == '/blog.php'):?>bg-white <?php endif ?>header header-neg">
+            <div class="container">
+                <div class="row header-content">
+                    <div class="col-sm-4 col-md-2 col-lg-3 hidden-xs hidden-sm main-logo">
+                        <a id="logo" title="AtoZ" href="/"> <img alt="AtoZ" class="hidden-xs logo" src="/img/ATOZ-MAIN-LOGO---online--3.png" width="190" /> </a>
+                        <a id="logo" title="AtoZ" href="/"> <img alt="AtoZ" class="hidden-xs logo-bg-white " src="/img/ATOZ-MAIN-LOGO---online--5.png" width="190" /> </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-5 col-lg-2 hidden-md hidden-lg btn-menu">
+                        <button type="button" class="btn-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> </button>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-5 col-lg-2 hidden-md hidden-lg btn-menu">
+                        <a class="small-logo hidden-lg" title="Trang chủ" href="/">
+                            <!-- <img alt="AtoZ" class="hidden-xs logo-full" src="/img/ATOZ-MAIN-LOGO---online--3.png" width="190" />  -->
+                            <img alt="AtoZ" class="visible-xs logo-mini img-responsive" src="/img/ATOZ-MAIN-LOGO---online--3.png" /> 
+                        </a>
+                    </div>
+                    <!-- Main -->
+                    <div class="col-xs-4 col-sm-6 col-md-10 col-lg-9 text-right">
+                        <ul class="ul-common main-menu hidden-sm hidden-xs">
+                            <li id="menu-item-plan" class="sub-lv2 "> <a class="menu-item " title="Bảng giá" href="/price-board">Bảng giá</a> </li>
+                            <li id="menu-item-ourcustomer" class="sub-lv2 "> <a class="menu-item " title="Khách hàng" href="/customers">Khách hàng</a> </li>
+                            <li id="menu-item-theme" class="sub-lv2 "> <a class="menu-item " title="Kho giao diện" href="/template">Kho giao diện</a> </li>
+                            <li id="menu-item-app" class="sub-lv2 "> <a class="menu-item " title="Kho ứng dụng" href="/apps">Kho ứng dụng</a> </li>
+                            <li id="menu-item-other" class="sub-lv2 "> <a class="menu-item more" title="Thêm" href="/#">Thêm</a>
+                                <ul>
+                                    <li class="icontop"></li>
+                                    <li><a href="/support">Trung tâm hỗ trợ</a></li>
+                                    <li><a href="/docs">Tài liệu hướng dẫn</a></li>
+                                    <li><a href="/business-websites">Web doanh nghiệp</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="/store-websites">Web bán hàng</a></li>
+                                    <li><a href="/contact">Liên hệ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- Account -->
+                        <!-- <ul class="ul-common user-menu hidden-xs" id="account-info">
+                            <li> <a href="#login-form" data-toggle="modal" data-target="#login-form" id="login-popup-button" title="Đăng nhập">Đăng nhập</a> </li>
+                            <li> <a href="#trial-popup" id="trial-popup-button" class="btn--zozo btn-white" data-toggle="modal" data-target="#trial-popup">Dùng thử</a> </li>
+                        </ul> <a href="javascript:void(0)" type="button" class="visible-xs header-account-toggle" data-toggle="collapse" data-target=".user-menu-xs"><i class="fa fa-ellipsis-v fa-2x"></i></a> -->
+                        <!-- End Account -->
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li> <a class="menu-item " href="/price-board">Bảng giá</a> </li>
+                    <li> <a class="menu-item " href="/customers">Khách hàng</a> </li>
+                    <li> <a class="menu-item " href="/template">Kho giao diện</a> </li>
+                    <li> <a class="menu-item " href="/apps">Kho ứng dụng</a> </li>
+                    <li> <a class="menu-item" href="/#xs-other" data-toggle="collapse" data-target="#xs-other">Thêm <i class="fa fa-angle-down"></i></a>
+                        <ul id="xs-other" class="collapse">
+                            <li><a href="/support">Trung tâm hỗ trợ</a></li>
+                            <li><a href="/docs">Tài liệu hướng dẫn</a></li>
+                            <li><a href="/business-websites">Web doanh nghiệp</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/store-websites">Web bán hàng</a></li>
+                            <li><a href="/contact">Liên hệ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-menu-xs collapse navbar-collapse" id="user-menu-xs">
+                <ul class="nav navbar-nav">
+                    <li class="list_chanel_sales list_landing"> <a href="#login-form" data-toggle="modal" data-target="#login-form" id="login-popup-button" title="Đăng nhập" class="collapsed">Đăng nhập</a> </li>
+                    <li> <a href="#trial-popup" id="trial-popup-button" data-toggle="modal" data-target="#trial-popup" class="menu-item" href="#">Dùng thử</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Login Form -->
+        <!-- Trial popup -->
+        <form id="login-form" action="" autocomplete="off" role="presentation" class="register-popup t-form form_action modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <div class="modal-header">
+                        <h3 class="modal-title title-detail bold text-orange">Đăng nhập website</h3>
+                        <p class="content">Cung cấp thông tin email, mật khẩu để tiến hành chuyến hướng tới website đăng ký trước đó</p>
+                    </div>
+                    <div class="modal-body search-form">
+                        <div name="domain_error" class="text-danger"></div>
+                        <div id="merchant-login-domain" class="dropdown">
+                            <input type="text" name="domain" class="form-control dropdown-toggle dropdown-category" data-toggle="dropdown" placeholder="-= Tên miền =-" value="" /> <span class="fa fa-angle-down dropdown-category-icon"></span>
+                            <ul class="dropdown-menu">
+                                <div class="col-sm-12 col-sm-6" id="list-domain"></div>
+                            </ul>
+                            <div class="space-20"></div>
+                        </div>
+                        <div name="email_error" class="text-danger"></div>
+                        <div class="f-row">
+                            <input type="text" class="form-control" name="email" autocomplete="new-email" placeholder="Email" value="" _autocheck="true" />
+                            <div name="email_autocheck" class="autocheck"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div name="password_error" class="text-danger"></div>
+                        <div class="f-row">
+                            <input type="password" class="form-control" name="password" autocomplete="new-password" placeholder="Mật khẩu" value="" _autocheck="true" />
+                            <div name="password_autocheck" class="autocheck"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div class="t-form">
+                            <label class="pull-left">
+                                <input type="checkbox" name="remember" value="1" />Lưu đăng nhập </label>
+                            <a data-toggle="modal" data-target="#forgot-form" class="pull-right" href="#forgot-form" data-dismiss="modal" id="forgot-popup-button"> <i class="fa fa-question-circle-o" aria-hidden="true"></i> Quên mật khẩu?</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="space-15"></div>
+                    <div class="register-form-action text-center">
+                        <button type="submit" class="btn--zozo btn-orange">Đăng nhập</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- <script type="text/javascript">
+            (function($) {
+                var domain = $('#login-form').find('input[name=\'domain\']').val();
+                if (!domain || domain == '') {
+                    $('#merchant-login-domain').hide();
+                };
+                $('#login-form').find('input[name=\'email\']').keydown(function() {
+                    loadAjax($(this));
+                });
+                $('#login-form').find('input[name=\'email\']').blur(function() {
+                    loadAjax($(this));
+                });
+                $('#login-form').find('input[name=\'email\']').focus(function() {
+                    loadAjax($(this));
+                });
+
+                function loadAjax(t) {
+                    if (!t.val()) {
+                        return false;
+                    }
+                    $('#merchant-login-domain').hide();
+                    $('#login-form').find('#list-domain')('');
+                    var email = t.val();
+                    $.ajax({
+                        type: 'POST',
+                        data: 'email=' + email,
+                        url: site_url + 'merchant/getbyemail',
+                        dataType: 'html',
+                        success: function(resp) {
+                            if (!resp || resp == '') {
+                                return;
+                            }
+                            $('#merchant-login-domain').show();
+                            $('#login-form').find('#list-domain')(resp);
+                        }
+                    });
+                }
+            })(jQuery);
+        </script> -->
+        <!-- Forgot Form -->
+        <!-- Trial popup -->
+        <form id="forgot-form" action="https://zozo.vn/merchant/forgot" autocomplete="off" class="register-popup modal t-form form_action fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <div class="modal-header">
+                        <h3 class="modal-title title-detail bold text-orange">Lấy lại mật khẩu</h3>
+                        <p class="content">Cung cấp chính xác thông tin website, email để hệ thống gửi hướng dẫn lấy lại mật khẩu cho bạn</p>
+                    </div>
+                    <div class="modal-body search-form">
+                        <div name="domain_error" class="text-danger"></div>
+                        <div class="f-row">
+                            <input type="text" class="form-control" name="domain" placeholder="Tên miền" _autocheck="true" />
+                            <div name="domain_autocheck" class="autocheck"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div name="email_error" class="text-danger"></div>
+                        <div class="f-row">
+                            <input type="text" class="form-control" name="email" placeholder="Email" _autocheck="true" />
+                            <div name="email_autocheck" class="autocheck"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div class="t-form text-left"> <i class="fa fa-reply-all" aria-hidden="true"></i> Quay lại <a data-toggle="modal" data-target="#login-form" href="#login-form" data-dismiss="modal"> Đăng nhập</a> </div>
+                    </div>
+                    <div class="space-15"></div>
+                    <div class="register-form-action text-center">
+                        <button type="submit" class="btn--zozo btn-orange">Đồng ý</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- Trial Form -->
+        <!-- Trial popup -->
+        <form id="trial-popup" action="https://zozo.vn/merchant/createtrial" autocomplete="off" class="register-popup modal t-form form_action fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <div class="modal-header">
+                        <h3 class="modal-title title-detail bold text-orange">Đăng ký dùng thử</h3>
+                        <p class="content">Trải nghiệm toàn bộ tính năng web AtoZ với 15 ngày sử dụng miễn phí</p>
+                    </div>
+                    <div class="modal-body search-form">
+                        <div class="f-row">
+                            <div class="input-group">
+                                <input type="text" class="form-control text-right" name="name" maxlength="14" placeholder="Tên website" _autocheck="true"> <span class="input-group-addon">.myAtoZ.net</span> </div>
+                            <div name="name_autocheck" class="autocheck"></div>
+                            <div name="name_error" class="text-danger"></div>
+                            <p class="shop-name-field"> <b><span id="store-alias"></span>.myAtoZ.net</b> là tên miền tạm thời của bạn </p>
+                            <div class="space-15"></div>
+                        </div>
+                        <div class="f-row" id="category-box">
+                            <div class="dropdown">
+                                <input type="text" name="category" class="form-control dropdown-toggle dropdown-category" data-toggle="dropdown" placeholder="-= Lĩnh vực kinh doanh =-" /> <span class="fa fa-angle-down dropdown-category-icon"></span>
+                                <div class="dropdown-menu">
+                                    <div class="col-sm-12 col-sm-6">
+                                        <ul class="ul-common">
+                                            <li><a onclick="pushParam('Quần áo - Thời trang','input[name=category]')" href="javascript:void(0)">Quần áo - Thời trang</a></li>
+                                            <li><a onclick="pushParam('Máy tính - Công nghệ','input[name=category]')" href="javascript:void(0)">Máy tính - Công nghệ</a></li>
+                                            <li><a onclick="pushParam('Mỹ phẩm - Làm đẹp','input[name=category]')" href="javascript:void(0)">Mỹ phẩm - Làm đẹp</a></li>
+                                            <li><a onclick="pushParam('Điện thoại','input[name=category]')" href="javascript:void(0)">Điện thoại</a></li>
+                                            <li><a onclick="pushParam('Điện tử - Gia dụng','input[name=category]')" href="javascript:void(0)">Điện tử - Gia dụng</a></li>
+                                            <li><a onclick="pushParam('Mẹ - Bé','input[name=category]')" href="javascript:void(0)">Mẹ - Bé</a></li>
+                                            <li><a onclick="pushParam('Nội thất','input[name=category]')" href="javascript:void(0)">Nội thất</a></li>
+                                            <li><a onclick="pushParam('Ẩm thực - Nhà hàng','input[name=category]')" href="javascript:void(0)">Ẩm thực - Nhà hàng</a></li>
+                                            <li><a onclick="pushParam('Đồ thể thao','input[name=category]')" href="javascript:void(0)">Đồ thể thao</a></li>
+                                            <li><a onclick="pushParam('Thiết bị Văn phòng','input[name=category]')" href="javascript:void(0)">Thiết bị Văn phòng</a></li>
+                                            <li><a onclick="pushParam('Thiết bị điện','input[name=category]')" href="javascript:void(0)">Thiết bị điện</a></li>
+                                            <li><a onclick="pushParam('Hoa - Quà tặng','input[name=category]')" href="javascript:void(0)">Hoa - Quà tặng</a></li>
+                                            <li><a onclick="pushParam('Giáo dục','input[name=category]')" href="javascript:void(0)">Giáo dục</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-sm-6">
+                                        <ul class="ul-common">
+                                            <li><a onclick="pushParam('Khách sạn - Du lịch','input[name=category]')" href="javascript:void(0)">Khách sạn - Du lịch</a></li>
+                                            <li><a onclick="pushParam('Giới thiệu Doanh nghiệp','input[name=category]')" href="javascript:void(0)">Giới thiệu Doanh nghiệp</a></li>
+                                            <li><a onclick="pushParam('Máy Công nghiệp','input[name=category]')" href="javascript:void(0)">Máy Công nghiệp</a></li>
+                                            <li><a onclick="pushParam('Bất động sản','input[name=category]')" href="javascript:void(0)">Bất động sản</a></li>
+                                            <li><a onclick="pushParam('Vật nuôi - Thú cưng','input[name=category]')" href="javascript:void(0)">Vật nuôi - Thú cưng</a></li>
+                                            <li><a onclick="pushParam('Cơ quan - Tổ chức','input[name=category]')" href="javascript:void(0)">Cơ quan - Tổ chức</a></li>
+                                            <li><a onclick="pushParam('Landing Page','input[name=category]')" href="javascript:void(0)">Landing Page</a></li>
+                                            <li><a onclick="pushParam('Y tế - Chăm sóc sức khỏe','input[name=category]')" href="javascript:void(0)">Y tế - Chăm sóc sức khỏe</a></li>
+                                            <li><a onclick="pushParam('Ôtô - Xe máy','input[name=category]')" href="javascript:void(0)">Ôtô - Xe máy</a></li>
+                                            <li><a onclick="pushParam('Hội thảo - Sự kiện','input[name=category]')" href="javascript:void(0)">Hội thảo - Sự kiện</a></li>
+                                            <li><a onclick="pushParam('Tư vấn dịch vụ','input[name=category]')" href="javascript:void(0)">Tư vấn dịch vụ</a></li>
+                                            <li><a onclick="pushParam('Dịch vụ khác','input[name=category]')" href="javascript:void(0)">Dịch vụ khác</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-15"></div>
+                        </div>
+                        <hr />
+                        <div class="f-row">
+                            <div class="half-field-control">
+                                <input type="text" class="form-control" name="fullname" placeholder="Tên đầy đủ" _autocheck="true" />
+                                <div name="fullname_autocheck" class="autocheck"></div>
+                                <div name="fullname_error" class="text-danger"></div>
+                            </div>
+                            <div class="half-field-control">
+                                <input type="text" class="form-control" name="phone" placeholder="Di động" _autocheck="true" />
+                                <div name="phone_autocheck" class="autocheck"></div>
+                                <div class="clearfix"></div>
+                                <div name="phone_error" class="text-danger text-right"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div class="f-row">
+                            <input type="text" class="form-control" name="email" placeholder="Email" _autocheck="true" />
+                            <div name="email_autocheck" class="autocheck"></div>
+                            <div name="email_error" class="text-danger"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <div class="f-row">
+                            <input type="password" class="form-control" name="password" placeholder="Mật khẩu (sử dụng khi đăng nhập quản trị web)" _autocheck="true" />
+                            <div name="password_autocheck" class="autocheck"></div>
+                            <div name="password_error" class="text-danger"></div>
+                            <div class="space-15"></div>
+                        </div>
+                        <input type="hidden" name="theme" value="" />
+                        <label for="terms">
+                            <input id="terms" name="terms" type="checkbox" checked="checked" /> Tôi đồng ý với <a href="https://zozo.vn/quy-dinh-su-dung">quy định</a> và <a href="https://zozo.vn/chinh-sach-bao-mat">chính sách bảo mật</a> của AtoZ. </label>
+                    </div>
+                    <div class="register-form-action text-left">
+                        <button type="submit" class="btn--zozo btn-orange">Tiếp tục</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- <script type="text/javascript">
+            (function($) {
+                var hash = window.location.hash;
+                if (hash && hash !== '') {
+                    $(hash + '-button').trigger('click');
+                }
+                $('.shop-name-field').hide();
+                $('#trial-popup').find('input[name="name"]').keyup(function() {
+                    $('#store-alias').text(generateAlias($(this).val()));
+                });
+                $('#trial-popup').find('input[name="name"]').blur(function() {
+                    $('#store-alias').text(generateAlias($(this).val()));
+                });
+                $('#trial-popup').find('input[name="name"]').focus(function() {
+                    $('#store-alias').text(generateAlias($(this).val()));
+                });
+
+                function generateAlias(n, t) {
+                    if (n === undefined || !n) {
+                        $('.shop-name-field').hide();
+                    } else {
+                        $('.shop-name-field').show();
+                    }
+                    return n = n.toLowerCase(), n = n.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a"), n = n.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e"), n = n.replace(/ì|í|ị|ỉ|ĩ/g, "i"), n = n.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o"), n = n.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u"), n = n.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y"), n = n.replace(/đ/g, "d"), n = n.replace(/'|\"|\(|\)|\[|\]/g, ""), n = n.replace(/\W+/g, ""), n = n.replace(/[^a-zA-Z0-9]/g, "")
+                }
+            })(jQuery);
+        </script> -->
+        <!-- End Header -->

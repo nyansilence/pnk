@@ -1,0 +1,256 @@
+    
+    <link rel="stylesheet" href="./css/blog.min.css">
+    <div id="bg-top">
+            <!--\ Header -->
+            <div class="banner-header hidden-xs">
+                <div class="container">
+                    <div class="home-banner text-left">
+                        <div class="title">AtoZ Blog</div>
+                        <p class="desc hidden-xs">Cung cấp kiến thức và cảm hứng hỗ trợ bạn xây dựng một doanh nghiệp vững mạnh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-menu">
+                <div class="container hidden-sm hidden-xs">
+                    <ul id="menu-primary-menu" class="b-main-menu clearfix">
+                        <li id="menu-item-46941" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-46941"> <a href="./"><i class="fa fa-home" aria-hidden="true"></i></a> </li>
+                        <li id="menu-item-65109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65109"> <a href="">Khởi nghiệp</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="">Xây dựng thương hiệu</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/hanh-trinh-khoi-nghiep">Hành trình khởi nghiệp</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/cau-chuyen-thanh-cong">Câu chuyện thành công</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/nghien-cuu-thi-truong">Nghiên cứu Thị trường</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-65109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65109"> <a href="https://zozo.vn/blog/van-hanh-website">Vận hành Website</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/kien-thuc-seo">Kiến thức SEO</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/chien-luoc-content">Chiến lược content</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-65109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65109"> <a href="https://zozo.vn/blog/marketing-online">Marketing online</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/chien-luoc-marketing">Chiến Lược Marketing</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/facebook-ads">Facebook ADS</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/google-adwords">Google Adwords</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/email-marketing">Email Marketing</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-65109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65109"> <a href="https://zozo.vn/blog/tin-tuc-su-kien">Tin tức - Sự kiện</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/tin-tuc-zozo">Tin tức Zozo</a></li>
+                                <li id="menu-item-65111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65111"> <a href="https://zozo.vn/blog/zozo-cap-nhat">Zozo Cập nhật</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="search-form"> <i class="icon-search-post"></i>
+                        <div class="form-input">
+                            <form method="get" id="searchform" class="searchform" action="https://zozo.vn/blog/search">
+                                <input type="text" id="s" name="q" placeholder="Nhập từ khóa ..." value="" />
+                                <button type="submit"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            </form>
+                            <script>
+                                $(function() {
+                                    $(".icon-search-post").click(function() {
+                                        $(this).toggleClass("active");
+                                        $(".search-form .form-input").toggle("500");
+                                    });
+                                    $('#searchform').submit(function() {
+                                        var key = $.trim($('#s').val());
+                                        if (key === '') {
+                                            alert('Nhập vào nội dung tìm kiếm!');
+                                            return false;
+                                        }
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-blog-mobile-new hidden-md hidden-lg">
+                    <div class="menu-nav-mobile"> <a href="javascript:;" data-tab="category">Danh mục <i class="fa fa-caret-down" aria-hidden="true"></i></a> <a href="javascript:;" data-tab="most-view">Đọc nhiều <i class="fa fa-caret-down" aria-hidden="true"></i></a> </div>
+                    <div class="blog-cate-mobile">
+                        <ul id="menu-primary-menu-1" class="b-main-menu-mobile clearfix">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-46941">
+                                <a href="https://zozo.vn/blog"> <i class="fa fa-home" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65089"> <a href="https://zozo.vn/blog/khoi-nghiep">Khởi nghiệp</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/xay-dung-thuong-hieu">Xây dựng thương hiệu</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/hanh-trinh-khoi-nghiep">Hành trình khởi nghiệp</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/cau-chuyen-thanh-cong">Câu chuyện thành công</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/nghien-cuu-thi-truong">Nghiên cứu Thị trường</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65089"> <a href="https://zozo.vn/blog/van-hanh-website">Vận hành Website</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/kien-thuc-seo">Kiến thức SEO</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/chien-luoc-content">Chiến lược content</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65089"> <a href="https://zozo.vn/blog/marketing-online">Marketing online</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/chien-luoc-marketing">Chiến Lược Marketing</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/facebook-ads">Facebook ADS</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/google-adwords">Google Adwords</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/email-marketing">Email Marketing</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-65089"> <a href="https://zozo.vn/blog/tin-tuc-su-kien">Tin tức - Sự kiện</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/tin-tuc-zozo">Tin tức Zozo</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://zozo.vn/blog/zozo-cap-nhat">Zozo Cập nhật</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="most-view">
+                        <div class="title"><i class="icon icon-time"></i>Xem nhiều</div>
+                        <div class="list-post">
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/huong-dan-cach-dang-san-pham-len-shopee-cho-nguoi-moi-bat-dau-99"> <img width="150" height="150" src="/upload/public/news/2017/12/22/Untitled7.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Hướng dẫn cách đăng sản phẩm lên shopee cho người mới bắt đầu" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/huong-dan-cach-dang-san-pham-len-shopee-cho-nguoi-moi-bat-dau-99">Hướng dẫn cách đăng sản phẩm lên shopee cho người mới bắt đầu</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 29106 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/ten-thuong-hieu-an-tuong-dau-tien-cua-khach-hang-ve-cua-hang-cua-ban-40"> <img width="150" height="150" src="/upload/public/news/2017/08/04/thuong_hieu.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Tên thương hiệu, ấn tượng đầu tiên của khách hàng về cửa hàng của bạn" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/ten-thuong-hieu-an-tuong-dau-tien-cua-khach-hang-ve-cua-hang-cua-ban-40">Tên thương hiệu, ấn tượng đầu tiên của khách hàng về cửa hàng của bạn</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 23911 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/nen-ban-hang-tren-lazada-shopee-tiki-sendo-hay-adayroi-126"> <img width="150" height="150" src="/upload/public/news/2018/02/23/kimngan2.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Nên bán hàng trên Lazada, Shopee, Tiki, Sendo hay Adayroi?" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/nen-ban-hang-tren-lazada-shopee-tiki-sendo-hay-adayroi-126">Nên bán hàng trên Lazada, Shopee, Tiki, Sendo hay Adayroi?</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 22811 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/cach-chon-ten-shop-hay-an-tuong-87"> <img width="150" height="150" src="/upload/public/news/2017/12/12/nhan-dien-thuong-hieu.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Cách chọn tên shop hay, ấn tượng" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/cach-chon-ten-shop-hay-an-tuong-87">Cách chọn tên shop hay, ấn tượng</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 5564 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/nhung-y-tuong-kinh-doanh-dang-lam-mua-lam-gio-trong-gioi-tre-hien-nay-54"> <img width="150" height="150" src="/upload/public/news/2017/08/14/basics-marketing-idea.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Những ý tưởng kinh doanh đang làm mưa làm gió trong giới trẻ hiện nay" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/nhung-y-tuong-kinh-doanh-dang-lam-mua-lam-gio-trong-gioi-tre-hien-nay-54">Những ý tưởng kinh doanh đang làm mưa làm gió trong giới trẻ hiện nay</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 4401 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/huong-dan-cach-dang-bai-ban-hang-facebook-trieu-like-74"> <img width="150" height="150" src="/upload/public/news/2017/12/02/logo-facebook.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Hướng dẫn cách đăng bài bán hàng facebook triệu like" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/huong-dan-cach-dang-bai-ban-hang-facebook-trieu-like-74">Hướng dẫn cách đăng bài bán hàng facebook triệu like</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 4115 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/kinh-doanh-gi-tet-2018-nhieu-lai-nhat-72"> <img width="150" height="150" src="/upload/public/news/2017/12/01/hoa-tet.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Kinh doanh gì Tết 2018 nhiều lãi nhất?" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/kinh-doanh-gi-tet-2018-nhieu-lai-nhat-72">Kinh doanh gì Tết 2018 nhiều lãi nhất?</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 3616 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/kinh-nghiem-ban-hoa-tuoi-dip-tet-2018-khong-bi-lo-von-79"> <img width="150" height="150" src="/upload/public/news/2017/12/06/hoa-tuoi-2.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Kinh nghiệm bán hoa tươi dịp Tết 2018 không bị lỗ vốn" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/kinh-nghiem-ban-hoa-tuoi-dip-tet-2018-khong-bi-lo-von-79">Kinh nghiệm bán hoa tươi dịp Tết 2018 không bị lỗ vốn</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 3563 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/kinh-doanh-dien-thoai-cu-co-kha-thi-khong-can-bao-nhieu-von-92"> <img width="150" height="150" src="/upload/public/news/2017/12/15/iphone-6-2_800x533.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Kinh doanh điện thoại cũ có khả thi không, cần bao nhiêu vốn" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/kinh-doanh-dien-thoai-cu-co-kha-thi-khong-can-bao-nhieu-von-92">Kinh doanh điện thoại cũ có khả thi không, cần bao nhiêu vốn</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 3152 Lượt xem</span> </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb-image">
+                                    <a href="https://zozo.vn/blog/kinh-doanh-online-hieu-qua-tu-cach-lam-kim-chi-don-gian-130"> <img width="150" height="150" src="/upload/public/news/2018/01/12/cach-lam-kim-chi-cai-thao-han-quoc-truyen-thong-17-590x380.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Kinh doanh online hiệu quả từ cách làm kim chi đơn giản" /> </a>
+                                </div>
+                                <div class="post-info"> <a href="https://zozo.vn/blog/kinh-doanh-online-hieu-qua-tu-cach-lam-kim-chi-don-gian-130">Kinh doanh online hiệu quả từ cách làm kim chi đơn giản</a> <span class="view"><i class="fa fa-eye" aria-hidden="true"></i> 2975 Lượt xem</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        $(function() {
+                            $('.menu-blog-mobile-new .menu-nav-mobile a').on('click', function() {
+                                var $this = $(this),
+                                    dataTab = $this.data('tab'),
+                                    tabCategory = $('.menu-blog-mobile-new .blog-cate-mobile'),
+                                    tabTodayReading = $('.menu-blog-mobile-new .most-view');
+                                if (dataTab.length) {
+                                    if (dataTab == 'category') {
+                                        if (tabCategory.is(':visible')) {
+                                            $('html').removeClass('overflow');
+                                            $('.menu-blog-mobile-new').removeClass('show');
+                                            $this.removeClass('active');
+                                            tabCategory.hide();
+                                        } else {
+                                            $('html').addClass('overflow');
+                                            $('.menu-blog-mobile-new').addClass('show');
+                                            $('.menu-blog-mobile-new .menu-nav-mobile a').removeClass('active');
+                                            tabTodayReading.hide();
+                                            $this.addClass('active');
+                                            tabCategory.show();
+                                        }
+                                    } else {
+                                        if (tabTodayReading.is(':visible')) {
+                                            $('html').removeClass('overflow');
+                                            $('.menu-blog-mobile-new').removeClass('show');
+                                            $this.removeClass('active');
+                                            tabTodayReading.hide();
+                                        } else {
+                                            $('html').addClass('overflow');
+                                            $('.menu-blog-mobile-new').addClass('show');
+                                            $('.menu-blog-mobile-new .menu-nav-mobile a').removeClass('active');
+                                            tabCategory.hide();
+                                            $this.addClass('active');
+                                            tabTodayReading.show();
+                                        }
+                                    }
+                                }
+                            });
+                            $(".menu-blog-mobile-new .b-main-menu-mobile li.menu-item-has-children > a").click(function(e) {
+                                e.preventDefault();
+                                $(this).parent().find(".sub-menu").toggle(500);
+                                $(this).parent().toggleClass("active");
+                            });
+                            var offsetMenu = $(".menu-blog-mobile-new").offset().top;
+                            $(window).on('scroll', function() {
+                                if ($(this).scrollTop() > offsetMenu) {
+                                    $(".menu-blog-mobile-new").addClass('fixed');
+                                } else {
+                                    $(".menu-blog-mobile-new").removeClass('fixed');
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper" class="main-content">
+            <div class="container">
+                <div class="row block-3">
+                    <div class="newest-posts clearfix">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="post-item">
+                                <div class="post-thumb">
+                                    <a href="" class="img-thumb"> <img width="360" height="210" src="/upload/public/blog-images/2019/facebook-2_1372049180-3464e.jpg" class="attachment-thumbnail-newpost-index size-thumbnail-newpost-index wp-post-image" alt=""> </a>
+                                    <div class="cate-post">
+                                        <ul class="post-categories">
+                                            <li><a href="https://zozo.vn/blog/facebook-ads" rel="category tag">Facebook ADS</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="post-info clearfix">
+                                    <div class="post-publish pull-left"><i class="fa fa-clock-o" aria-hidden="true"></i> 02/07/2019</div>
+                                    <div class="post-view pull-right"><i class="fa fa-eye" aria-hidden="true"></i> 9 Lượt xem</div>
+                                </div> <a class="title" href=""> Xây dựng chiến lược Facebook Marketing chỉ trong 4 bước </a>
+                                <div class="desc hidden-xs">
+                                    <p>Nếu bạn không có một chiến lược và mục tiêu rõ ràng dành cho facebook fanpage của mình, bạn sẽ&#8230; <a class="excerpt-read-more" href="" title="Xây dựng chiến lược Facebook Marketing chỉ trong 4 bước">Xem thêm »</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page_nav"><span class="page-numbers current"><a>1</span></a><span class="page-numbers"><a href="" data-ci-pagination-page="2">2</a></span><span class="page-numbers"><a href="https://zozo.vn/blog?per_page=24" data-ci-pagination-page="3">3</a></span><span class="next page-numbers"><a href="" data-ci-pagination-page="2" rel="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span><span class="next page-numbers"><a href="https://zozo.vn/blog?per_page=192" data-ci-pagination-page="17"><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></a></span></div>
+                </div>
+            </div>
+        </div>

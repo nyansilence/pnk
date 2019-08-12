@@ -50,3 +50,14 @@ var $grid = $('#result').isotope({
     loadMore(counter);
   });
 });
+
+$(window).scroll(function() {
+  $window = $(this)
+  if($('.scroll-banner')) {
+    if($window.scrollTop() >= $('.table-category').offset().top && ($window.scrollTop() + $('.scroll-banner').height()) <= ($('.packages-table-Quan-tri-he-thong').offset().top + $('.packages-table-Quan-tri-he-thong').height())) {
+      $('.scroll-banner').addClass('show-banner')
+    } else {
+      $('.scroll-banner').removeClass('show-banner')
+    }
+  }
+})

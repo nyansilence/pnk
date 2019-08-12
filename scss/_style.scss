@@ -1,0 +1,101 @@
+.header {
+    .logo-bg-white {
+        display: none;
+    }
+    &.bg-white {
+        ul li a:not(.btn--zozo) {
+            color: #000 !important;
+        }
+        .logo-bg-white {
+            display: inline-block;
+        }
+        .logo {
+            display: none;
+        }
+        .main-menu li ul {
+            background: rgba(255, 255, 255, 0.8);
+        }
+    }
+}
+
+.bg-main {
+    background-color: rgb(35, 47, 62);
+}
+
+#bg-top .banner-header {
+    background: url(../img/bg-blog-banner.png) !important;
+}
+
+.logo-sp img {
+    max-width: 100px;
+}
+
+.site-banner {
+    min-height: 300px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 50px 0;
+    justify-content: center;
+    -webkit-justify-content: center;
+    &.site-banner-home {
+        padding-bottom: 0;
+    }
+}
+
+.scroll-banner {
+    display: none;
+}
+
+.packages-list {
+    margin-bottom: 30px;
+}
+
+.section-white,
+.text-content-white {
+    color: #fff !important;
+}
+
+.landing-features-image {
+    padding-top: 80px;
+}
+
+.landing-features .section-info {
+    padding-top: 80px !important;
+}
+
+body .small-logo .logo-mini {
+    height: auto !important;
+}
+
+.app-category .mm-load-more {
+    display: none !important;
+}
+ul.main-menu {
+    float: unset !important;
+}
+
+.site-banner .row {
+    margin: 0 !important;
+}
+
+.contact-map .map {
+    height: auto !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .scroll-banner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: scale(0);
+        opacity: 0;
+        transition: all .1s ease-in-out;
+        &.show-banner {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}
